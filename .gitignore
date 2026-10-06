@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+
+# 데이터 (용량이 커서 git에 올리지 않음 — 다운로드 스크립트로 재생성)
+data/
+*.h5
+*.hdf5
+*.zarr/
+*.parquet
+*.npz
+
+# 외부 저장소 (Shiu et al. 등 원본 코드는 참조만)
+external/
+
+# 실행 결과물
+outputs/
+runs/
+checkpoints/
+*.pt
+*.ckpt
+
+# Brian2 C++ 빌드 캐시
+output/
+standalone/
+
+# 에디터 / OS
+.vscode/
+.DS_Store
+Thumbs.db

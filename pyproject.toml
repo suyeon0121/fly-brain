@@ -1,0 +1,7 @@
+[project]
+name = "fly-brain"
+version = "0.1.0"
+description = "초파리 뇌 커넥톰 시뮬레이션과 3D U-Net 뉴런 분할 개인 프로젝트"
+readme = "README.md"
+requires-python = "==3.12.10"
+dependencies = []
