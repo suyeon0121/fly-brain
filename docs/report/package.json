@@ -1,0 +1,11 @@
+{
+  "name": "fly-brain-report",
+  "private": true,
+  "description": "초파리 뇌 프로젝트 정리 문서(.docx) 생성",
+  "scripts": {
+    "build": "node build.js"
+  },
+  "dependencies": {
+    "docx": "^9.0.0"
+  }
+}

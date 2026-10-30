@@ -23,6 +23,10 @@ checkpoints/
 *.pt
 *.ckpt
 
+# 문서 생성 (Node)
+node_modules/
+package-lock.json
+
 # Brian2 C++ 빌드 캐시
 output/
 standalone/
